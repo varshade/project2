@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>testrule</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>test</label>
+        <sharedTo>
+            <guestUser>testcommunity</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>City</field>
+            <operation>notEqual</operation>
+            <value>null</value>
+        </criteriaItems>
+    </sharingGuestRules>
+</SharingRules>
